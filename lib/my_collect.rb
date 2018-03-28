@@ -4,7 +4,7 @@ new = []
 
     i = 0
     while i<languages.length
-      
+
       new.push yield (languages[i])
       i=i+1
     end
