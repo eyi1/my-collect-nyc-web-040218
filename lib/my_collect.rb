@@ -9,5 +9,5 @@ new = []
     end
     languages
 end
-new.push(languages[i].upcase)
+
 end
