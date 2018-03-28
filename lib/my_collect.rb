@@ -6,8 +6,7 @@ def my_collect (languages)
       yield (languages[i])
       i=i+1
     end
-    languages[i]
+    languages
 end
 
 end
-
