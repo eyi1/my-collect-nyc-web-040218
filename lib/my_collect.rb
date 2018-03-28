@@ -1,4 +1,5 @@
 def my_collect (languages)
+new = []
   if block_given?
 
     i = 0
@@ -8,5 +9,5 @@ def my_collect (languages)
     end
     languages
 end
-
+new.push(languages[i].upcase)
 end
