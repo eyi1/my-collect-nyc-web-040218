@@ -8,5 +8,5 @@ def my_collect (languages)
     end
     languages[i].upcase
 end
-languages
+
 end
