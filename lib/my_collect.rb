@@ -8,7 +8,7 @@ new = []
       new.push yield (languages[i])
       i=i+1
     end
-    languages
+    new
 end
 
 end
